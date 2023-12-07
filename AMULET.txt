@@ -1,0 +1,91 @@
+Amulet version 1.1
+2021-2-21
+
+Definition
+
+An amulet is a kind of poem that depends on language, code, and luck. To
+qualify, a poem must satisfy these criteria:
+
+    Its complete Unicode text is 64 bytes or less. [1]
+    The hexadecimal SHA-256 hash of the text includes four or more 8s in a row. [2]
+
+There are no other rules! An amulet can be written in any language and any
+style. It can be composed, generated, or “discovered” in any way.
+
+The number of sequential 8s in the hash deter­mines the rarity of the amulet:
+
+    8888: common
+    88888: uncommon
+    888888: rare
+    8888888: epic
+    88888888: legendary
+    888888888: mythic
+    8888888888+: ???
+
+And, while this isn’t part of the formal definition it’s important to say
+that an amulet of any rarity should be judged by its overall effect, with
+consideration for both its linguistic and typo­graphic qualities. In
+particular, an amulet’s whitespace, punctuation, and diacritics should all be
+“load bearing”.
+
+A poem doesn’t become interesting simply by satisfying the constraints of
+some obscure form; likewise, an amulet isn’t collectible simply because it’s
+rare.
+
+But... it doesn’t hurt.
+
+A few stray considerations:
+
+    Special appreciation is reserved for the amulet that is, in any sense,
+    “aware of its circumstances”.
+
+    It is tempting to stylize “amulet” as “amul8”; this, unfortunately, is too
+    dorky.
+
+    There is significant luck involved in the production of amulets; you
+    might consider them bouillon cubes of fortune, useful as ingredients in
+    other recipes, digital and occult.
+
+Footnotes:
+
+[1] Unicode (UTF-8) characters often require more than one byte; most
+programming languages provide a function to determine the byte size of
+a string.
+
+[2] For most programmers, the SHA-256 hash function will be familiar and close
+to hand. For other readers interested in seeing how it works, this scratchpad
+might be useful.
+
+Discussion
+
+The SHA-256 hash function is ubiquitous in cryptography. In Zora, for
+example, it’s used to verify the identity of a piece of media, like
+a fingerprint. That media could be an MP4 movie, a PNG image, or a poem in
+plain text; if you change one frame, one pixel, or one comma, you change the
+SHA-256 hash entirely.
+
+The hash is a cold hexadecimal spew –
+
+9a120001cc88888363fc67c45f2c52447ae64808d497ec9d699dba0d74d72aab
+
+– and, like a fingerprint, it doesn’t tell you anything about the entity it
+identifies. That’s by design, but even so, it feels strange for a value so
+pivotal to be totally disconnected from the under­lying content, especially
+when it is this value that’s being collected and traded in cryptographic
+marketplaces.
+
+Ostensibly, the hash provides an immutable link between unique cryptographic
+object and free-floating digital media.
+
+The amulet asks: what if we took that link seriously?
+
+In a sense, the definition of the SHA-256 hash function created, at
+a stroke, all amulets of all rarities. Common to mythic, trashy to lovely, they
+have been hiding in the manifold combinations of language; we just didn’t
+know we ought to be looking for them. Until now!
+
+How should we feel about this? I will invoke an amulet of uncommon rarity; you
+saw its SHA-256 hash above, five 8s in a row, lucky indeed:
+
+If you can't write poems,
+write me
