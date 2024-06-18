@@ -41,8 +41,9 @@ sub main {
   if (-t STDIN && @ARGV == 0) {
     test();
   } else {
-    local $/;    # read all input at once by unsetting record seperator
-    process_input(<>);
+    local $/;    # read all input at once by unsetting record separator
+    my $input = @ARGV ? join(' ', @ARGV) : <>;
+    process_input($input);
   }
 }
 
