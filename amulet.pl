@@ -32,7 +32,7 @@ our %IRSSI   = (
   name        => 'amulet finder',
   url         => 'https://github.com/shmup/amulet.pl',
   description => 'hunt for amulets in sequential chatter',
-  license     => 'Public Domain',
+  license     => 'Artistic-2.0',
 );
 
 my $amulet_regex = qr/(?:8{4,})/;
