@@ -39,15 +39,17 @@ my $amulet_regex = qr/(?:8{4,})/;
 
 sub main {
   if (-t STDIN && @ARGV == 0) {
-    my @test_strings =
-      ("DON'T WORRY.", "If you can't write poems,\nwrite me", "   #zakyz");
-    foreach my $test (@test_strings) {
-      process_input($test);
-    }
+    test();
   } else {
     local $/;    # read all input at once by unsetting record seperator
     process_input(<>);
   }
+}
+
+sub test {
+  process_input("DON'T WORRY.");
+  process_input("If you can't write poems,\nwrite me");
+  process_input("   #zakyz");
 }
 
 sub process_input {
