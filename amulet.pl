@@ -30,6 +30,7 @@ our %IRSSI   = (
   authors     => 'shmup',
   contact     => 'shmup@smell.flowers',
   name        => 'amulet finder',
+  url         => 'https://github.com/shmup/amulet.pl',
   description => 'hunt for amulets in sequential chatter',
   license     => 'Public Domain',
 );
