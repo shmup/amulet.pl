@@ -22,17 +22,17 @@ The number of sequential 8s in the hash deter­mines the rarity of the amulet:
     888888888: mythic
     8888888888+: ???
 
-And, while this isn’t part of the formal definition it’s important to say
+And, while this isn't part of the formal definition it’s important to say
 that an amulet of any rarity should be judged by its overall effect, with
 consideration for both its linguistic and typo­graphic qualities. In
 particular, an amulet’s whitespace, punctuation, and diacritics should all be
 “load bearing”.
 
-A poem doesn’t become interesting simply by satisfying the constraints of
-some obscure form; likewise, an amulet isn’t collectible simply because it’s
+A poem doesn't become interesting simply by satisfying the constraints of
+some obscure form; likewise, an amulet isn't collectible simply because it’s
 rare.
 
-But... it doesn’t hurt.
+But... it doesn't hurt.
 
 A few stray considerations:
 
@@ -68,7 +68,7 @@ The hash is a cold hexadecimal spew –
 
 9a120001cc88888363fc67c45f2c52447ae64808d497ec9d699dba0d74d72aab
 
-– and, like a fingerprint, it doesn’t tell you anything about the entity it
+– and, like a fingerprint, it doesn't tell you anything about the entity it
 identifies. That’s by design, but even so, it feels strange for a value so
 pivotal to be totally disconnected from the under­lying content, especially
 when it is this value that’s being collected and traded in cryptographic
@@ -81,7 +81,7 @@ The amulet asks: what if we took that link seriously?
 
 In a sense, the definition of the SHA-256 hash function created, at
 a stroke, all amulets of all rarities. Common to mythic, trashy to lovely, they
-have been hiding in the manifold combinations of language; we just didn’t
+have been hiding in the manifold combinations of language; we just didn't
 know we ought to be looking for them. Until now!
 
 How should we feel about this? I will invoke an amulet of uncommon rarity; you
